@@ -9,8 +9,8 @@ If new tracks are added, a Slack webhook is notified about the changes.
 
 ## Deployment:
  * The application is deployed in an OpenStack IaaS platform hosted at NTNU Gjøvik.
- * The infrastructure is created with OpenStack HEAT.
- * The application is running in linux server.
+ * The infrastructure is created with OpenStack HEAT, and the app installed with a boot-script.
+ * The application is running on a single linux server.
 
 ***
 
