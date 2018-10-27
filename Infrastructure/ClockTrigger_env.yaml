@@ -1,0 +1,11 @@
+parameters:
+  key_name: moskjaer
+  image: Ubuntu Server 18.04 LTS (Bionic Beaver) amd64
+  flavor: m1.medium
+  security_group_linux: default,linux
+  public_net: ntnu-internal
+  private_net_name: paragliderNett
+  private_net_cidr: 192.168.10.0/24
+  private_net_gateway: 192.168.10.1
+  private_net_pool_start: 192.168.10.200
+  private_net_pool_end: 192.168.10.250
